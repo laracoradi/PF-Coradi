@@ -1,0 +1,58 @@
+/* general */
+
+body {
+    background-color: #D8DBE1;
+    font-weight: bolder;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+/* (320px) */
+
+@media screen and (max-width: 320px) {
+    .altura {
+        margin: 0.5rem 0;
+        padding: 0 0.5rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-img-top {
+        width: 100%;
+    }
+
+    .hero,
+    .hero_2 {
+        background-size: cover;
+    }
+}
+
+/*(768px) */
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 50%;
+    }
+
+    .sectionContacto {
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+            "h1Contacto h1Contacto"
+            "parrafoCon mapUbi"
+            "contacto_form contacto_form";
+    }
+}
+
+/* (1200px) */
+
+@media screen and (min-width: 1200px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    ul {
+        width: 50%;
+    }
+}
