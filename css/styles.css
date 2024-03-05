@@ -128,7 +128,7 @@ footer ul li {
 .btn-check:checked+.btn, 
 .btn.active, 
 .btn.show, 
-.btn: :first-child:active,
+.btn :first-child:active,
 :not(.btn-check)+.btn.active{
     background-color: black;
     color: rgb(31, 142, 247);
